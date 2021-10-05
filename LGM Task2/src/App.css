@@ -1,0 +1,70 @@
+.nav{
+    background-color: #2a4247;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    padding: 18px 0px 10px 0px;
+}
+
+.h1 {
+    text-align: center;
+    color: #43646b;
+    font-size: 180%;
+}
+
+.h2 {
+    color:yellowgreen;
+}
+
+.a {
+    color: #541a8bd3;
+}
+
+@media only screen and (max-width: 800.5px) {
+    .divContainer {
+        padding: 0px 8px;
+    }
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name{
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 20px;
+}
+.email{
+    padding: 5px;
+    background-color: rgba(10, 214, 214, 0.2);
+    border-radius: 20px; 
+    margin: 0px 0px 13px 0px;
+}
+.unfetched{
+    text-align: center;
+    margin: 10% 0px;
+    font-size: 150%;
+}
+@media only screen and (min-width: 800.5px) {
+    .divContainer {
+        padding: 0px 2%;
+    }
+}
+
+.listCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.listCard {
+    margin: 3%;
+    padding: 1px 8px;
+    background-color: rgba(238, 147, 144, 0.25);
+    backdrop-filter: blur( 5px);
+    -webkit-backdrop-filter: blur( 5px);
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    z-index: -1;
+    text-align: center;
+}
